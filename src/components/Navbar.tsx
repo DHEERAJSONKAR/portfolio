@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Code } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 import { navLinks } from '../constants';
 
@@ -67,7 +67,11 @@ const Navbar: React.FC = () => {
           className="flex items-center gap-2 font-bold text-xl text-gray-900 dark:text-white"
           onClick={() => setActive('home')}
         >
-          <Code className="text-indigo-600 dark:text-indigo-400" />
+          <img 
+            src="/dkphoto.jpg" 
+            alt="Dheeraj Sonkar" 
+            className="h-8 w-8 rounded-full object-cover border border-indigo-600 dark:border-indigo-400" 
+          />
           <span>Dheeraj Sonkar</span>
         </motion.a>
 

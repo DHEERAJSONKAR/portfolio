@@ -67,9 +67,9 @@ const About: React.FC = () => {
           <div className="relative">
             <div className="absolute inset-0 -mt-4 -ml-4 bg-indigo-600 dark:bg-indigo-500 rounded-lg z-0"></div>
             <img 
-              src="https://images.pexels.com/photos/4195342/pexels-photo-4195342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src="/dkphoto.jpg"
               alt="Dheeraj Sonkar" 
-              className="relative z-10 w-full h-auto rounded-lg shadow-lg"
+              className="relative z-10 w-full h-auto rounded-lg shadow-lg object-cover"
             />
           </div>
         </motion.div>
